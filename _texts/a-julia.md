@@ -6,24 +6,6 @@ editor: Alex Gil
 source: Ciudad Seva
 ---
 
-- Ya las gentes murmuran que yo soy tu enemiga
-- porque dicen que en verso doy al mundo mi yo.
-
-- Mienten, *Julia de Burgos*. Mienten, Julia de Burgos.
-- La que se alza en mis versos no es tu voz: es mi voz
-- porque tú eres [ropaje](http://www.spanishdict.com/translate/ropaje) y la esencia soy yo; y el más
-- profundo abismo se tiende entre las dos.
-
-- Tú eres fria muñeca de mentira social,
-- y yo, viril destello de la humana verdad.
-
-- Tú, miel de cortesana hipocresías; yo no;
-- que en todos mis poemas desnudo el corazón.
-
-- Tú eres como tu mundo, egoísta;
-- yo no; que en todo me lo juego a ser lo que soy yo.
-
-- Tú eres sólo la grave señora señorona; yo no,
 - yo soy la vida, la fuerza, la mujer.
 
 - Tú eres de tu marido, de tu amo; yo no;
