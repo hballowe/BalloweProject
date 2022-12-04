@@ -2,7 +2,7 @@
 
 # Setup
 title:               Ballowe Project
-tagline:             'a jekyll theme for minimal editions'
+tagline:             'a website to host my in-progress project'
 description:         'Ed is a Jekyll theme designed for textual editors based on minimal computing principles, and focused on legibility and flexibility.'
 url:                 'http://minicomp.github.io'
 baseurl:             '/ed'
