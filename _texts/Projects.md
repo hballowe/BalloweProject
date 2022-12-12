@@ -1,17 +1,11 @@
 ---
 layout: default
-title: "Ed."
+title: projects
 ---
-<div class="introduction">
-  <h1>hi.</h1>
-
-<p>
-  The question I had in mind when I began this project was:
-</p>
-<p><em>How are people who hold positions of authority within female athletics responding to and working to prevent eating disorders and disordered eating habits?</em>
-</p>
-<p>
-I chose this question because previous research shows that 46% of elite female athletes involved in "leanness sports" (like gymnastics, cross country, or dancing) enagage in disordered eating behaviors or show signs of eating disorders (Melin et al). These behaviors are connected to injury, menstrual dysfunction, increased depressive tendencies, decreased athletic performances, hormonal imbalance, nutrient deficiencies, and a myriad of other risks (Mountyjoy et al). Knowing these statistics, I expected and hoped my research would demonstrate that authorities within female athletics would emphasize education about, identification of, and treatment of eating disorders.
+- The question I had in mind when I began this project was:
+-   The question I had in mind when I began this project was:
+- How are people who hold positions of authority within female athletics responding to and working to prevent eating disorders and disordered eating habits?</em>
+- I chose this question because previous research shows that 46% of elite female athletes involved in "leanness sports" (like gymnastics, cross country, or dancing) enagage in disordered eating behaviors or show signs of eating disorders (Melin et al). These behaviors are connected to injury, menstrual dysfunction, increased depressive tendencies, decreased athletic performances, hormonal imbalance, nutrient deficiencies, and a myriad of other risks (Mountyjoy et al). Knowing these statistics, I expected and hoped my research would demonstrate that authorities within female athletics would emphasize education about, identification of, and treatment of eating disorders.
 </p>
 <h2>Search Results</h2>
 <p> I analyzed 17 articles from <a href="https://meridian.allenpress.com/jat"><em>The Journal of Athletic Training</em></a> using a topic model to try and understand the language around eating disorders and disordered eating in female athletics. The <em>JAT</em> has 5,675 articles available in their online search. Searching the terms "eating disorder," "eating disorders," or "disordered eating," yields only 95 results, or about <strong> 0.01674% </strong> of the journal's online corpus. Comparitvely earching for a specific injury, like "ankle sprain" or "muscle strain," yields 502 results (0.0885% of total) and 378 results (0.0667% of total), respectively. While muscle strains and ankle sprains are likely more common ailments among athletes, the small percentage of results for search terms related to eating pathology does not correlate with the amount of athletes who suffer from the disorders.
@@ -24,20 +18,3 @@ Google Ngrams reflects that the terms "eating disorder" began to sharply increas
 <p>The next step for this project as a whole would be to expand the corpus of texts I analyzed. While the <em>JAT</em> served as a fine starting point for applying skills and testing research methods, the limited date range and specific audience limits the credibility and legitimacy of my results. Though my results do not suggest that the audience of the <em>JAT</em> (athletic trainers) prioritize eating disorders in female athletes to the extent necessary, these results may be skewed by my sample size.<p>
 <p>The next step for my topic model is to turn my bimodal graph into a unimodal one. Doing so would allow me to see what terms co-occur within topics, rather than just what terms occur in multiple topics.
 </p>
-</div>
-
-<hr>
-
-<div class="toc">
-  <h2>Links</h2>
-  <ul class="texts">
-  {% for item in site.texts %}
-
-    <li class="text-title">
-      <a href="{{ site.baseurl }}{{ item.url }}">
-        {{ item.title }}
-      </a>
-    </li>
-  {% endfor %}
-  </ul>
-</div>
