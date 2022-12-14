@@ -16,7 +16,7 @@ I chose this question because previous research shows that 46% of elite female a
 
 I analyzed 17 articles from <a href="https://meridian.allenpress.com/jat"><em>The Journal of Athletic Training</em></a> using a topic model to try and understand the language around eating disorders and disordered eating in female athletics. The *JAT* has 5,675 articles available in their online search. Searching the terms "eating disorder," "eating disorders," or "disordered eating," yields only 95 results, or about **0.01674%** of the journal's online corpus. Comparitvely earching for a specific injury, like "ankle sprain" or "muscle strain," yields 502 results (0.0885% of total) and 378 results (0.0667% of total), respectively. While muscle strains and ankle sprains are likely more common ailments among athletes, the small percentage of results for search terms related to eating pathology does not correlate with the amount of athletes who suffer from the disorders.
 
-![Search Results](assets/search-results.png)
+![Search Results](/ed/search-results.png)
 
 #### Google NGrams
 
@@ -50,7 +50,7 @@ The recurrence of "performace" was interesting as well, as eating pathologies ar
 
 **image**
 
-The terms "female" (4) and "women" (1) had lower degree centralities than I expected, potentially indicating that while the *JAT* acknowledges the effects of eating pathologies, they do not associate these habits with female athletes more than male athletes. "Prevention" (2) and "treatment" (2) also appeared in less topics than I anticipated, suggesting that the *JAT* literature might not focus on treatment and prevention of eating pathologies in their articles. 
+The terms "female" (4) and "women" (1) had lower degree centralities than I expected, potentially indicating that while the *JAT* acknowledges the effects of eating pathologies, they do not associate these habits with female athletes more than male athletes. "Prevention" (2) and "treatment" (2) also appeared in less topics than I anticipated, suggesting that the *JAT* literature might not focus on treatment and prevention of eating pathologies in their articles.
 
 #### Next Steps
 
