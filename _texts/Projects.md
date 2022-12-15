@@ -9,24 +9,24 @@ The question I had in mind when I began this project was:
 
 *How are people who hold positions of authority within female athletics responding to and working to prevent eating disorders and disordered eating habits?*
 
-I chose this question because previous research shows that 46% of elite female athletes involved in "leanness sports" (like gymnastics, cross country, or dancing) enagage in disordered eating behaviors or show signs of eating disorders.[^fn1] These behaviors are connected to injury, menstrual dysfunction, increased depressive tendencies, decreased athletic performances, hormonal imbalance, nutrient deficiencies, and a myriad of other risks.[^fn2] Knowing these statistics, I expected and hoped my research would demonstrate that authorities within female athletics would emphasize education about, identification of, and treatment of eating disorders.
+I chose this question because previous research shows that 46% of elite female athletes involved in "leanness sports" (like gymnastics, cross country, or dancing) engage in disordered eating behaviors or show signs of eating disorders.[^fn1] These behaviors are connected to injury, menstrual dysfunction, increased depressive tendencies, decreased athletic performances, hormonal imbalance, nutrient deficiencies, and a myriad of other risks.[^fn2] Knowing these statistics, I expected and hoped my research would demonstrate that authorities within female athletics would emphasize education about, identification of, and treatment of eating disorders.
 
 
 #### Search Results
 
-I analyzed 17 articles from <a href="https://meridian.allenpress.com/jat"><em>The Journal of Athletic Training</em></a> using a topic model to try and understand the language around eating disorders and disordered eating in female athletics. The *JAT* has 5,675 articles available in their online search. Searching the terms "eating disorder," "eating disorders," or "disordered eating," yields only 95 results, or about **0.01674%** of the journal's online corpus. Comparitvely earching for a specific injury, like "ankle sprain" or "muscle strain," yields 502 results (0.0885% of total) and 378 results (0.0667% of total), respectively. While muscle strains and ankle sprains are likely more common ailments among athletes, the small percentage of results for search terms related to eating pathology does not correlate with the amount of athletes who suffer from the disorders.
+I analyzed 17 articles from <a href="https://meridian.allenpress.com/jat"><em>The Journal of Athletic Training</em></a> using a topic model to try and understand the language around eating disorders and disordered eating in female athletics. The *JAT* has 5,675 articles available in their online search. Searching the terms "eating disorder," "eating disorders," or "disordered eating," yields only 95 results, or about **0.01674%** of the journal's online corpus. Comparatively, searching for a specific injury, like "ankle sprain" or "muscle strain," yields 502 results (0.0885% of total) and 378 results (0.0667% of total), respectively. While muscle strains and ankle sprains are likely more common ailments among athletes, the small percentage of results for search terms related to eating pathology does not correlate with the amount of athletes who suffer from the disorders.
 
 ![Search Results](/ed/search-results.png)
 
 #### Google NGrams
 
-Google Ngrams reflects that the terms "eating disorder" began to sharply increase in use in 1980. While this data would likely be useful if I were to expand the corpus of this project, the *JAT* only has documents available online from 2008-the present.
+Google Ngrams reflects that the term "eating disorder" began to sharply increase in use in 1980. While this data would likely be useful if I were to expand the corpus of this project, the *JAT* only has documents available online from 2008-the present.
 
 ![Ngrams - "eating disorder"](Users/HannahBallowe/ed/assets/ngrams-eating.png)
 
 #### Topic Modeling
 
-Using [*Mallet*](https://mallet.cs.umass.edu/diagnostics.php), I made 19 topics of 25 terms each for my corpus. Unsurprisngly, "sports" was the term with the highest degree centrality. All terms with degree centality measure equal to or greater than 3 are listed below.
+Using [*Mallet*](https://mallet.cs.umass.edu/diagnostics.php), I made 19 topics of 25 terms each for my corpus. Unsurprisingly, "sports" was the term with the highest degree centrality. All terms with degree centrality measure equal to or greater than 3 are listed below.
 
 | 3           | 4         | 5          | 6        | 7      |
 | ------------|-----------|------------|----------|--------|
@@ -46,15 +46,15 @@ Using [*Mallet*](https://mallet.cs.umass.edu/diagnostics.php), I made 19 topics 
 | bone        |           |            |          |        |
 | injuries    |           |            |          |        |
 
-Again, it was unsurprisng to find that "athlete," "athletes," and "collegiate" were among the terms that occured in the most topics. The presence of "injury," however, contributes to the idea that discussion regarding eating disorders and female athletes considers injuries a prevalent issue, and seeks to address this. Because of the tendency for bone injuries to co-occur with eating pathologies, it was comforting to see the frequency of "injury," "injuries," and "bone" in the topic model.[^fn3]
+Again, it was not surprising to find that "athlete," "athletes," and "collegiate" were among the terms that occurred in the most topics. The presence of "injury," however, contributes to the idea that discussion regarding eating disorders and female athletes considers injuries a prevalent issue, and seeks to address this. Because of the tendency for bone injuries to co-occur with eating pathologies, it was comforting to see the frequency of "injury," "injuries," and "bone" in the topic model.[^fn3]
 
-The recurrence of "performace" was interesting as well, as eating pathologies are associated with decreased performance, indicating that the discussion around eating disorders and female athletes might consider the effect that eating pathologies can have on performance.
+The recurrence of "performance" was interesting as well, as eating pathologies are associated with decreased performance, indicating that the discussion around eating disorders and female athletes might consider the effect that eating pathologies can have on performance.
 
 The terms "female" (4) and "women" (1) had lower degree centralities than I expected, potentially indicating that while the *JAT* acknowledges the effects of eating pathologies, they do not associate these habits with female athletes more than male athletes. "Prevention" (2) and "treatment" (2) also appeared in less topics than I anticipated, suggesting that the *JAT* literature might not focus on treatment and prevention of eating pathologies in their articles.
 
 ![Topic Model](/Users/HannahBallowe/ed/assets/topicmodel.png)
 
-The topic model above does not show us anything substantial, because of the scale, but the magnified image below show us the number of edges connected to the term "sports" (in red), showing how many topics "sports" occurs in.
+The topic model above does not show us anything substantial, because of the scale, but the magnified image below shows us the number of edges connected to the term "sports" (in red), showing how many topics "sports" occurs in.
 
 !["Sports" edges](/Users/HannahBallowe/ed/assets/sports.png)
 
@@ -76,7 +76,7 @@ The next step for this project as a whole would be to expand the corpus of texts
 
 The next step for my topic model is to turn my bimodal graph into a unimodal one. Doing so would allow me to see what terms co-occur within topics, rather than just what terms occur in multiple topics.
 
---------
+*References*
 
 [^fn1]:Melin, A., Tornberg, A., Skouby, S., Faber, J., Ritz, C., Sjodin, A., & Sundgot-Borgen, J. (2014, February 21). The LEAF questionnaire: A screening tool for the identification of female athletes at risk for the female athlete triad—ProQuest. ProQuest. https://www-proquest- com.ezproxy.lib.vt.edu/docview/1779357930/fulltext- PDF/AEE25FE0B94C479DPQ/1?ac countid=14826
 [^fn2]: Mountjoy, M., Sundgot-Borgen, J., Burke, L., Carter, S., Constantini, N., Lebrun, C., Meyer, N., Sherman, R., Steffen, K., Budgett, R., & Ljungqvist, A. (2014a). The IOC consensus statement: Beyond the Female Athlete Triad—Relative Energy Deficiency in Sport (RED-S). British Journal of Sports Medicine, 48(7), 491–497.
